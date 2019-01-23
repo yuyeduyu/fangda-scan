@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 23 15:31:46 CST 2019
+#Wed Jan 23 16:43:33 CST 2019
 210.set=ANDROID_RESOURCE
 282.file=D\:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ptr_rotate_arrow.png
 14.set=ANDROID_RESOURCE

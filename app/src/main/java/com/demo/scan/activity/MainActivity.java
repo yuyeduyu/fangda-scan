@@ -505,16 +505,19 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
                 break;
             case "6":
-                //出库查询
-                if (!AppUtils.checkAppInstalled(MainActivity.this,"com.example.uhfsdkdemo")){
+                //调用RFID 出库 调拨记录界面
+               /* if (!AppUtils.checkAppInstalled(MainActivity.this,"com.example.uhfsdkdemo")){
                     Toast.makeText(MainActivity.this,"请安装方大丝绸RFID APP后在点击",Toast.LENGTH_SHORT).show();
                 }else {
-                    Intent intent = new Intent();
+                    Intent
+                    intent = new Intent(Intent.ACTION_MAIN);
+                    intent.addCategory(Intent.CATEGORY_LAUNCHER);
                     ComponentName cn = new ComponentName("com.example.uhfsdkdemo", "com.example.uhfsdkdemo.activity.SearchActivity");
                     intent.setComponent(cn);
                     startActivity(intent);
-                }
-
+                }*/
+                //出库查询
+                startActivity(new Intent(MainActivity.this, SearchActivity.class));
                 break;
             case "7":
                 //一键翻译

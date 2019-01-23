@@ -178,6 +178,7 @@ public class SearchChuKuFragment extends Fragment {
             storeHousePtrFrame.refreshComplete();
             return;
         }
+        tvTime.setText(startTime + " 至 " + endTime);
         String url = "";
         SharedPreferences mSharedPrefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
         AsyncHttpClient mAsyncHttpclient = new AsyncHttpClient();
@@ -274,7 +275,7 @@ public class SearchChuKuFragment extends Fragment {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.CHINA);
         String now = sdf.format(new Date());
         startTime = now.split(" ")[0];
-//        endTime = now.split(" ")[0];
+        endTime = now.split(" ")[0];
         tvTime.setText(startTime + " 至 " + endTime);
         lastData = GetDataUtils.getDateStrByMint(now, 0);
         startTimePicker = new CustomDatePicker(getActivity(), new CustomDatePicker.ResultHandler() {

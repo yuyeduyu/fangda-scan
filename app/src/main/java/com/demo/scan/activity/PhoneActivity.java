@@ -470,15 +470,16 @@ public class PhoneActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case "6":
                 //出库查询
-                if (!AppUtils.checkAppInstalled(PhoneActivity.this,"com.example.uhfsdkdemo")){
+                /*if (!AppUtils.checkAppInstalled(PhoneActivity.this,"com.example.uhfsdkdemo")){
                     Toast.makeText(PhoneActivity.this,"请安装方大丝绸RFID APP后在点击",Toast.LENGTH_SHORT).show();
                 }else {
                     Intent intent = new Intent();
                     ComponentName cn = new ComponentName("com.example.uhfsdkdemo", "com.example.uhfsdkdemo.activity.SearchActivity");
                     intent.setComponent(cn);
                     startActivity(intent);
-                }
-
+                }*/
+                //出库查询
+                startActivity(new Intent(PhoneActivity.this, SearchActivity.class));
                 break;
             case "7":
                 //一键翻译

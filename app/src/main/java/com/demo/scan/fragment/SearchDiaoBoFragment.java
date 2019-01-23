@@ -149,7 +149,7 @@ public class SearchDiaoBoFragment extends Fragment {
                 //下拉刷新
                 pager = 1;
                 mLogs.clear();
-
+                adapter.notifyDataSetChanged();
                 selectData();
 
             }
@@ -184,6 +184,7 @@ public class SearchDiaoBoFragment extends Fragment {
             storeHousePtrFrame.refreshComplete();
             return;
         }
+        tvTime.setText(startTime + " 至 " + endTime);
         String url = "";
         SharedPreferences mSharedPrefs = PreferenceManager.getDefaultSharedPreferences(getActivity());
         AsyncHttpClient mAsyncHttpclient = new AsyncHttpClient();
@@ -261,6 +262,8 @@ public class SearchDiaoBoFragment extends Fragment {
                 break;
             case R.id.search:
                 pager = 1;
+                mLogs.clear();
+                adapter.notifyDataSetChanged();
                 storeHousePtrFrame.autoRefresh();
                 break;
         }
