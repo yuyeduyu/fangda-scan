@@ -54,6 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
                 android:layout_weight="1"
+                android:hint="输入查询的品名"
                 android:background="@null"
                 android:textSize="14sp" />
 
@@ -68,6 +69,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
+                android:hint="输入查询的色号"
                 android:layout_weight="1"
                 android:background="@null"
                 android:textSize="14sp" />
