@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">方大丝绸扫描</string>
+    <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="id">编号</string>
+    <string name="barcode">条码</string>
+    <string name="count">次数</string>
+    <string name="barcodeCount">条码总数: </string>
+    <string name="clear">清除</string>
+    <string name="scan">扫描</string>
+    <string name="exit">退出</string>
+    <string name="exitSystem">再按一次退出</string>
+</resources>

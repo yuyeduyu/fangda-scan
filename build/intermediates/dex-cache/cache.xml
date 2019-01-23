@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\httpcore-4.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="592ffbd778cbcc2e2dc5d162b35c16d6a538fea2">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\httpcore-4.1.4_a149ceefe05afa98ecf86d0060ff0a1472ff558e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\cc09601815a005363876c4eef17ba52f9e0b64a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b025c568a4e97b63b8e137400bad367865d5c80">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_54a4de1aa97ead31388e67ae4391baf21c0d51c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6_dcf0dc6c8a59c1c59e54c5a2858f8712ecc1df92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\13516ff5172c0bfa070e6938ef343a002cf1f826\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_49dff06be8d2f2dbb21a5f7058be73e0a3c54c2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\gson-2.2.4_93fe1a3037bba22848d6400fbfca0965d0960ee4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_a2a255623276bf6fd1b525dcb3e3c692cac62c3e.jar" />
+    </item>
+
+</items>

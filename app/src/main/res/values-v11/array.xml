@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_equnitor">
+        <item >门店库</item>
+        <item >色坯库</item>
+        <item >零剪库</item>
+        <item >库房4</item>
+    </string-array>
+</resources>
