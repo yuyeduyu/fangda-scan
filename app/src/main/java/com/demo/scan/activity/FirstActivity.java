@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.demo.scan.R;
+import com.demo.scan.utils.AppUtils;
 
 public class FirstActivity extends AppCompatActivity implements View.OnClickListener {
     private TextView tv1,tv2,tv3;
@@ -50,7 +51,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.tv_2:
 //                RFID扫描
-                if (!checkAppInstalled(FirstActivity.this,"com.example.uhfsdkdemo")){
+                if (!AppUtils.checkAppInstalled(FirstActivity.this,"com.example.uhfsdkdemo")){
                     Toast.makeText(FirstActivity.this,"请安装方大丝绸RFID APP后在点击",Toast.LENGTH_SHORT).show();
                 }else {
                     intent = new Intent(Intent.ACTION_MAIN);
@@ -68,26 +69,5 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
                 break;
         }
     }
-    /**
-     * 判断APP是否存在
-     * @Author lish
-     * @Date 2019-01-23 13:58
-     */
-    private boolean checkAppInstalled(Context context, String pkgName) {
-        if (pkgName== null || pkgName.isEmpty()) {
-            return false;
-        }
-        PackageInfo packageInfo;
-        try {
-            packageInfo = context.getPackageManager().getPackageInfo(pkgName, 0);
-        } catch (PackageManager.NameNotFoundException e) {
-            packageInfo = null;
-            e.printStackTrace();
-        }
-        if(packageInfo == null) {
-            return false;
-        } else {
-            return true;//true为安装了，false为未安装
-        }
-    }
+
 }

@@ -9,7 +9,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.demo.scan.R;
-import com.demo.scan.bean.ChukuResultBean;
 import com.demo.scan.bean.DiaoBoResultBean;
 import com.demo.scan.utils.TimeUtils;
 
@@ -53,6 +52,8 @@ public class DiaoBoInfoActivity extends AppCompatActivity {
     TextView tvIsHandFilling;
     @BindView(R.id.tv_outOrderNo)
     TextView tvOutOrderNo;
+    @BindView(R.id.tv_nowUser)
+    TextView tvNowUser;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,20 +73,21 @@ public class DiaoBoInfoActivity extends AppCompatActivity {
     private void shownInfo() {
         tvCode.setText(data.getBarcode());
         tvDevname.setText(data.getDeviceName());
-        tvTime.setText(TimeUtils.longToString(Long.valueOf(data.getScanningTime()),TimeUtils.timeType));
+        tvTime.setText(TimeUtils.longToString(Long.valueOf(data.getScanningTime()), TimeUtils.timeType));
         tvOrderNo.setText(data.getOrderNo());
-        tvTimeKct.setText(data.getTimeKct());
+        tvTimeKct.setText(TimeUtils.longToString(Long.valueOf(data.getTimeKct()), TimeUtils.timeType));
         tvName.setText(data.getProductName());
         tvColor.setText(data.getColor());
-        tvLenth.setText(data.getLength()+"");
+        tvLenth.setText(data.getLength() + "");
         tvShrinkage.setText(data.getShrinkage());
         tvStoreroom.setText(data.getStoreroom());
         tvFrozenMan.setText(data.getFrozenMan());
         tvIsOut.setText(data.getIsAllocation());
-        tvStartTime.setText(TimeUtils.longToString(Long.valueOf(data.getStartTime()),TimeUtils.timeType));
-        tvEndTime.setText(TimeUtils.longToString(Long.valueOf(data.getEndTime()),TimeUtils.timeType));
+        tvStartTime.setText(TimeUtils.longToString(Long.valueOf(data.getStartTime()), TimeUtils.timeType));
+        tvEndTime.setText(TimeUtils.longToString(Long.valueOf(data.getEndTime()), TimeUtils.timeType));
         tvIsHandFilling.setText(data.getIsHandFilling());
         tvOutOrderNo.setText(data.getAllocationNo());
+        tvNowUser.setText(data.getNowUser());
     }
 
     /**

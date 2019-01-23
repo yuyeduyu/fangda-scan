@@ -14,6 +14,7 @@ import java.util.TimerTask;
 import cn.pda.scan.ScanThread;
 
 import android.app.AlertDialog;
+import android.content.ComponentName;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -47,6 +48,7 @@ import com.demo.scan.R;
 import com.demo.scan.bean.InfoData;
 import com.demo.scan.bean.RespBean;
 import com.demo.scan.Server;
+import com.demo.scan.utils.AppUtils;
 import com.demo.scan.utils.Util;
 import com.demo.scan.utils.WaitDialog;
 import com.demo.scan.utils.PopupMenuUtil;
@@ -504,7 +506,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
                 break;
             case "6":
                 //出库查询
-                startActivity(new Intent(MainActivity.this, SearchActivity.class));
+                if (!AppUtils.checkAppInstalled(MainActivity.this,"com.example.uhfsdkdemo")){
+                    Toast.makeText(MainActivity.this,"请安装方大丝绸RFID APP后在点击",Toast.LENGTH_SHORT).show();
+                }else {
+                    Intent intent = new Intent();
+                    ComponentName cn = new ComponentName("com.example.uhfsdkdemo", "com.example.uhfsdkdemo.activity.SearchActivity");
+                    intent.setComponent(cn);
+                    startActivity(intent);
+                }
+
                 break;
             case "7":
                 //一键翻译

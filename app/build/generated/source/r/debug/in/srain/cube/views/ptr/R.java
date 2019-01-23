@@ -34,11 +34,11 @@ public final class R {
         public static final int both = 0x7f0f0059;
         public static final int loadMore = 0x7f0f005a;
         public static final int none = 0x7f0f002e;
-        public static final int ptr_classic_header_rotate_view = 0x7f0f00c8;
-        public static final int ptr_classic_header_rotate_view_header_last_update = 0x7f0f00c7;
-        public static final int ptr_classic_header_rotate_view_header_text = 0x7f0f00c5;
-        public static final int ptr_classic_header_rotate_view_header_title = 0x7f0f00c6;
-        public static final int ptr_classic_header_rotate_view_progressbar = 0x7f0f00c9;
+        public static final int ptr_classic_header_rotate_view = 0x7f0f00c9;
+        public static final int ptr_classic_header_rotate_view_header_last_update = 0x7f0f00c8;
+        public static final int ptr_classic_header_rotate_view_header_text = 0x7f0f00c6;
+        public static final int ptr_classic_header_rotate_view_header_title = 0x7f0f00c7;
+        public static final int ptr_classic_header_rotate_view_progressbar = 0x7f0f00ca;
         public static final int refresh = 0x7f0f005b;
     }
     public static final class layout {

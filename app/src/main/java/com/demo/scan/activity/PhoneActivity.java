@@ -1,5 +1,6 @@
 package com.demo.scan.activity;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -29,6 +30,7 @@ import com.demo.scan.Server;
 import com.demo.scan.bean.Barcode;
 import com.demo.scan.bean.InfoData;
 import com.demo.scan.bean.RespBean;
+import com.demo.scan.utils.AppUtils;
 import com.demo.scan.utils.PopupMenuUtil;
 import com.demo.scan.utils.WaitDialog;
 import com.google.gson.Gson;
@@ -468,7 +470,15 @@ public class PhoneActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case "6":
                 //出库查询
-                startActivity(new Intent(PhoneActivity.this, SearchActivity.class));
+                if (!AppUtils.checkAppInstalled(PhoneActivity.this,"com.example.uhfsdkdemo")){
+                    Toast.makeText(PhoneActivity.this,"请安装方大丝绸RFID APP后在点击",Toast.LENGTH_SHORT).show();
+                }else {
+                    Intent intent = new Intent();
+                    ComponentName cn = new ComponentName("com.example.uhfsdkdemo", "com.example.uhfsdkdemo.activity.SearchActivity");
+                    intent.setComponent(cn);
+                    startActivity(intent);
+                }
+
                 break;
             case "7":
                 //一键翻译
@@ -897,7 +907,7 @@ public class PhoneActivity extends AppCompatActivity implements View.OnClickList
      */
     private void initTool() {
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        mToolbar.setTitle(getResources().getString(R.string.app_name));
+        mToolbar.setTitle("方大丝绸手机扫描");
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {

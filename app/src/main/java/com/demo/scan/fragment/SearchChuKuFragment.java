@@ -143,7 +143,7 @@ public class SearchChuKuFragment extends Fragment {
                 //下拉刷新
                 pager = 1;
                 mLogs.clear();
-
+                adapter.notifyDataSetChanged();
                 selectData();
 
             }
@@ -255,6 +255,8 @@ public class SearchChuKuFragment extends Fragment {
                 break;
             case R.id.search:
                 pager = 1;
+                mLogs.clear();
+                adapter.notifyDataSetChanged();
                 storeHousePtrFrame.autoRefresh();
                 break;
         }
@@ -272,7 +274,7 @@ public class SearchChuKuFragment extends Fragment {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.CHINA);
         String now = sdf.format(new Date());
         startTime = now.split(" ")[0];
-        endTime = now.split(" ")[0];
+//        endTime = now.split(" ")[0];
         tvTime.setText(startTime + " 至 " + endTime);
         lastData = GetDataUtils.getDateStrByMint(now, 0);
         startTimePicker = new CustomDatePicker(getActivity(), new CustomDatePicker.ResultHandler() {
@@ -295,6 +297,7 @@ public class SearchChuKuFragment extends Fragment {
      * created at 2018-08-13 15:53
      */
     private void showEndTimePicker() {
+        endTime = "";
         endTimePicker = new CustomDatePicker(getActivity(), new CustomDatePicker.ResultHandler() {
             @Override
             public void handle(String time) { // 回调接口，获得选中的时间
