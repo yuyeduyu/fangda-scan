@@ -18,7 +18,7 @@ import java.lang.Override;
 public class OrderActivity_ViewBinding<T extends OrderActivity> implements Unbinder {
   protected T target;
 
-  private View view2131689705;
+  private View view2131296439;
 
   @UiThread
   public OrderActivity_ViewBinding(final T target, View source) {
@@ -27,9 +27,10 @@ public class OrderActivity_ViewBinding<T extends OrderActivity> implements Unbin
     View view;
     target.storeHousePtrFrame = Utils.findRequiredViewAsType(source, R.id.store_house_ptr_frame, "field 'storeHousePtrFrame'", PtrClassicFrameLayout.class);
     target.filterEdit = Utils.findRequiredViewAsType(source, R.id.filter_edit, "field 'filterEdit'", EditText.class);
+    target.filterTypeEdit = Utils.findRequiredViewAsType(source, R.id.filter_edit_type, "field 'filterTypeEdit'", EditText.class);
     view = Utils.findRequiredView(source, R.id.search, "field 'search' and method 'onViewClicked'");
     target.search = Utils.castView(view, R.id.search, "field 'search'", ImageView.class);
-    view2131689705 = view;
+    view2131296439 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -47,11 +48,12 @@ public class OrderActivity_ViewBinding<T extends OrderActivity> implements Unbin
 
     target.storeHousePtrFrame = null;
     target.filterEdit = null;
+    target.filterTypeEdit = null;
     target.search = null;
     target.recyclerview = null;
 
-    view2131689705.setOnClickListener(null);
-    view2131689705 = null;
+    view2131296439.setOnClickListener(null);
+    view2131296439 = null;
 
     this.target = null;
   }

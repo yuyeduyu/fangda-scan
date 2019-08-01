@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
         setContentView(R.layout.activity_main);
         initView();
 
-//        testData();
+        testData();
         try {
             scanThread = new ScanThread(mHandler);
         } catch (Exception e) {
@@ -463,7 +463,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
                 for (int i = 0; i < listMap.size(); i++) {
                     list.add(listMap.get(i).get("barcode").toString());
                 }
-                LockData(list);
+//                LockData(list);
 
                 break;
             case "3":

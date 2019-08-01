@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\httpcore-4.1.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="592ffbd778cbcc2e2dc5d162b35c16d6a538fea2">
-        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\httpcore-4.1.4_a149ceefe05afa98ecf86d0060ff0a1472ff558e.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Administrator\.android\build-cache\cc09601815a005363876c4eef17ba52f9e0b64a0\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -27,6 +18,15 @@
         revision="25.0.2"
         sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
         <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6_dcf0dc6c8a59c1c59e54c5a2858f8712ecc1df92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\httpcore-4.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="592ffbd778cbcc2e2dc5d162b35c16d6a538fea2">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\httpcore-4.1.4_a149ceefe05afa98ecf86d0060ff0a1472ff558e.jar" />
     </item>
     <item
         is-multidex="false"

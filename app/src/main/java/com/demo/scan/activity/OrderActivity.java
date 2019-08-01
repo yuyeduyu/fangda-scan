@@ -56,6 +56,8 @@ public class OrderActivity extends AppCompatActivity {
     PtrClassicFrameLayout storeHousePtrFrame;
     @BindView(R.id.filter_edit)
     EditText filterEdit;
+    @BindView(R.id.filter_edit_type)
+    EditText filterTypeEdit;
     @BindView(R.id.search)
     ImageView search;
     @BindView(R.id.recyclerview)
@@ -141,10 +143,11 @@ public class OrderActivity extends AppCompatActivity {
             @Override
             public void onRefreshBegin(PtrFrameLayout frame) {
                 //下拉刷新
-                if (!TextUtils.isEmpty(filterEdit.getText().toString())) {
-                    selectData(filterEdit.getText().toString().trim());
+                if (!TextUtils.isEmpty(filterEdit.getText().toString())
+                        &&!TextUtils.isEmpty(filterTypeEdit.getText().toString())) {
+                    selectData(filterEdit.getText().toString().trim(),filterTypeEdit.getText().toString().trim());
                 } else {
-                    Toast.makeText(OrderActivity.this, "请输入色号", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(OrderActivity.this, "请输入色号或类型", Toast.LENGTH_SHORT).show();
                     storeHousePtrFrame.refreshComplete();
                 }
             }
@@ -185,7 +188,7 @@ public class OrderActivity extends AppCompatActivity {
     }
 
     //查询
-    private void selectData(final String data) {
+    private void selectData(final String data,final String type) {
         SharedPreferences mSharedPrefs = PreferenceManager.getDefaultSharedPreferences(this);
         AsyncHttpClient mAsyncHttpclient = new AsyncHttpClient();
         String remote_ip = mSharedPrefs.getString("remote_admin_ip", Server.admin_server);
@@ -194,6 +197,7 @@ public class OrderActivity extends AppCompatActivity {
 //        String url = "http://q4sx2p.natappfree.cc"  + Server.serveradress + "/order/findOrderByColor";
         RequestParams params = new RequestParams();
         params.put("color", data);
+        params.put("type", type);
 
         mAsyncHttpclient.post(url, params, new AsyncHttpResponseHandler() {
             @Override

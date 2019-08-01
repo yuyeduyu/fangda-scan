@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\wsandroid\\ScanDemmo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\10404\\.gradle\\caches\\transforms-2\\files-2.1\\cca2c6c0c73095d70eca65d8732e8f7f\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,108,164,221,273,328,378,441,489,547,607,662,720,781",
+                        "endColumns": "52,55,56,51,54,49,62,47,57,59,54,57,60,53",
+                        "endOffsets": "103,159,216,268,323,373,436,484,542,602,657,715,776,830"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\10404\\.gradle\\caches\\transforms-2\\files-2.1\\09a0f3196eb11d23092c017c71bafea7\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    },
+                    "to": {
+                        "startLines": "16",
+                        "startColumns": "4",
+                        "startOffsets": "835",
+                        "endColumns": "44",
+                        "endOffsets": "875"
+                    }
+                }
+            ]
+        }
+    ]
+}
