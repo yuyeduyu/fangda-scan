@@ -13,5 +13,6 @@
     <string name="scan">Scan</string>
     <string name="exit">exit</string>
     <string name="exitSystem">Please press back key again, exit</string>
+    <string name="title_activity_settlement">SettlementActivity</string>
 
 </resources>

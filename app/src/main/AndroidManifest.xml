@@ -40,8 +40,12 @@
         <activity android:name="io.github.xudaojie.qrcodelib.CaptureActivity" />
         <activity android:name=".activity.PhoneActivity" />
         <activity android:name=".activity.SearchActivity" />
-        <activity android:name=".activity.ChukuInfoActivity"></activity>
-        <activity android:name=".activity.DiaoBoInfoActivity"></activity>
+        <activity android:name=".activity.ChukuInfoActivity" />
+        <activity android:name=".activity.DiaoBoInfoActivity" />
+        <activity
+            android:name=".activity.SettlementActivity"
+            android:label="@string/title_activity_settlement"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

@@ -8,8 +8,8 @@ android {
         applicationId "com.demo.scan"
         minSdkVersion 17
         targetSdkVersion 21
-        versionCode 8
-        versionName "2.0.8"
+        versionCode 9
+        versionName "2.0.9"
     }
 
     buildTypes {

@@ -712,6 +712,7 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="fab_margin">16dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -843,6 +844,7 @@
     <string name="scan_failed">Scan failed!</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_settlement">SettlementActivity</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -852,15 +854,21 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        
-        
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <!--状态栏颜色-->
         <item name="colorPrimaryDark">@color/primary_dark</item>
-        
+        <!--Toolbar颜色-->
         <item name="colorPrimary">@color/primary</item>
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>
@@ -1886,11 +1894,11 @@
     </style>
     <style name="MyToolBar" parent="AppBaseTheme">
         <item name="android:textColorPrimary">#ffffff</item>
-        
+        <!--图标颜色-->
         <item name="android:textColorSecondary">#ffffff</item>
-        
+        <!--下拉菜单背景-->
         <item name="android:colorBackground">@color/primary_dark</item>
-        
+        <!--<item name="android:textSize">@dimen/text_18</item>-->
         <item name="buttonGravity">top</item>
         <item name="android:textColor">#ffffff</item>
     </style>

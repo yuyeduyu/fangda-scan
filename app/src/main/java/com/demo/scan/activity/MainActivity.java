@@ -468,14 +468,14 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
                 break;
             case "3":
                 //入库
-                if (listMap == null || listMap.size() < 1) {
-                    Toast.makeText(MainActivity.this, "数据为空", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                for (int i = 0; i < listMap.size(); i++) {
-                    list.add(listMap.get(i).get("barcode").toString());
-                }
-                inData(list);
+//                if (listMap == null || listMap.size() < 1) {
+//                    Toast.makeText(MainActivity.this, "数据为空", Toast.LENGTH_SHORT).show();
+//                    return;
+//                }
+//                for (int i = 0; i < listMap.size(); i++) {
+//                    list.add(listMap.get(i).get("barcode").toString());
+//                }
+//                inData(list);
 
                 break;
             case "4":
@@ -530,6 +530,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
             case "8":
                 //订单查询
                 startActivity(new Intent(MainActivity.this, OrderActivity.class));
+                break;
+            case "9":
+                //结算查询
+                startActivity(new Intent(MainActivity.this, SettlementActivity.class));
                 break;
         }
     }
@@ -887,7 +891,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
             public void onSuccess(int statusCode, Header[] headers, byte[] responseByte) {
 
                 String successStr = new String(responseByte);
-                analysisResp(successStr, "入库", waitDialog);
+                analysisResp(successStr, "激活", waitDialog);
 
 
             }

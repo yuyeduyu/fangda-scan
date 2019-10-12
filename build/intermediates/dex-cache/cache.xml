@@ -3,6 +3,24 @@
 
     <item
         is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\650ebdbe23cbfb6b1caa6da8b18c129999b8c51f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_00685ad46e6d9f6d7d133f6d64629e4cc8128fd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\25fe2d17696d450fc8e04c3ddb6f47260759c944\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_f2f817a2958cdc3f35fa9d358358f8dce3e60532.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\httpcore-4.1.4.jar"
         jumboMode="false"
         optimize="true"
@@ -12,12 +30,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\cc09601815a005363876c4eef17ba52f9e0b64a0\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="4b025c568a4e97b63b8e137400bad367865d5c80">
-        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_54a4de1aa97ead31388e67ae4391baf21c0d51c5.jar" />
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\support-annotations-25.4.0_6efba71d3cc56c52514f10345b6030ccb220bca0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\d692d52d632e38982b6c310e047dfe38fa475cc8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40a6b8f05124eb9e6012e18b80a6dbd13440e283">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_71bb360e3b8bcfa1622cbf939ab9a2db98ce7b1f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -30,12 +57,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\13516ff5172c0bfa070e6938ef343a002cf1f826\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
-        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_49dff06be8d2f2dbb21a5f7058be73e0a3c54c2b.jar" />
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\core-3.2.1_3f96f72d8bc40481fc852122e0314b3485c288eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\be13d988339813823689a96b7997a3f256e2349d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="123445a738f283d8272ba858cc4233c090d9e41d">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_25423b3efc633838c6793f2b57df2b044c40d0e0.jar" />
     </item>
     <item
         is-multidex="false"

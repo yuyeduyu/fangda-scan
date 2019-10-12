@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/view_backgroud"
+    android:orientation="vertical"
+    tools:context="com.demo.scan.activity.FirstActivity">
+
+    <include layout="@layout/custom_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/layout_backgroud"
+            android:gravity="center"
+            android:text="1D/2D扫描"
+            android:textColor="@color/primary" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/layout_backgroud"
+            android:gravity="center"
+            android:text="RFID"
+            android:textColor="@color/primary" />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/layout_backgroud"
+            android:gravity="center"
+            android:text="手机扫描"
+            android:textColor="@color/primary" />
+    </LinearLayout>
+
+</LinearLayout>

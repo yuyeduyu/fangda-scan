@@ -14,13 +14,32 @@ import java.text.ParseException;
 public class OrderBean implements Comparable<OrderBean>{
     // [{"name":"140/弹力缎16","orderNumber":"6.000","riceNumber":0.000,"orderTime":"Aug 20, 2015 12:00:00 AM"
 // ,"shippingDate":"Oct 31, 2018 12:00:00 AM"}
-
+//[{\"name\":\"140/素绉缎16\",\"orderNumber\":\"4.000\",\"color\":\"43#\",\"riceNumber\":0.000,\"orderTime\":\"Jul 30, 2015 12:00:00 AM\"" +
+//            ",\"shippingDate\":\"May 9, 2019 12:00:00 AM\",\"factroy\":\"\"},
 //    面料名称      进厂日期      匹数       进厂米数      出货日期
     private String name;
     private String orderTime;
     private double orderNumber;
     private double riceNumber;
     private String shippingDate;
+    private String factroy;
+    private String color;
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public String getFactroy() {
+        return factroy;
+    }
+
+    public void setFactroy(String factroy) {
+        this.factroy = factroy;
+    }
 
     public String getName() {
         return name;
