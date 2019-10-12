@@ -468,15 +468,15 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
                 break;
             case "3":
                 //入库
-//                if (listMap == null || listMap.size() < 1) {
-//                    Toast.makeText(MainActivity.this, "数据为空", Toast.LENGTH_SHORT).show();
-//                    return;
-//                }
-//                for (int i = 0; i < listMap.size(); i++) {
-//                    list.add(listMap.get(i).get("barcode").toString());
-//                }
-//                inData(list);
-
+                if (listMap == null || listMap.size() < 1) {
+                    Toast.makeText(MainActivity.this, "数据为空", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                for (int i = 0; i < listMap.size(); i++) {
+                    list.add(listMap.get(i).get("barcode").toString());
+                }
+                inData(list);
+//                Toast.makeText(MainActivity.this, "请使用RFID版本激活", Toast.LENGTH_SHORT).show();
                 break;
             case "4":
                 //出库
@@ -885,7 +885,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 //		String url = "http://192.168.1.5:8080/fdsc/inComing";
         RequestParams params = new RequestParams();
         params.put("codes", new Gson().toJson(datalist));
-
+        params.put("equInfor", "门店");
         mAsyncHttpclient.post(url, params, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseByte) {

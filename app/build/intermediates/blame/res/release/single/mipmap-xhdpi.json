@@ -44,6 +44,10 @@
         "source": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\src\\main\\res\\mipmap-xhdpi\\aui.png"
     },
     {
+        "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\ic_back.png",
+        "source": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_back.png"
+    },
+    {
         "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\z2.png",
         "source": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\src\\main\\res\\mipmap-xhdpi\\z2.png"
     },

@@ -66,7 +66,6 @@
         </LinearLayout>
 
         <LinearLayout
-            android:visibility="invisible"
             android:id="@+id/test3"
             android:layout_width="0dip"
             android:layout_height="match_parent"

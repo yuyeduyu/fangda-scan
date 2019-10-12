@@ -493,6 +493,10 @@ public class PhoneActivity extends AppCompatActivity implements View.OnClickList
                 //订单查询
                 startActivity(new Intent(PhoneActivity.this, OrderActivity.class));
                 break;
+            case "9":
+                //结算查询
+                startActivity(new Intent(PhoneActivity.this, SettlementActivity.class));
+                break;
         }
     }
 
@@ -841,7 +845,7 @@ public class PhoneActivity extends AppCompatActivity implements View.OnClickList
 //		String url = "http://192.168.1.5:8080/fdsc/inComing";
         RequestParams params = new RequestParams();
         params.put("codes", new Gson().toJson(datalist));
-
+        params.put("equInfor", "门店");
         mAsyncHttpclient.post(url, params, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseByte) {

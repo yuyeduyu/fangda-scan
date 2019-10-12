@@ -204,6 +204,7 @@ public class OrderActivity extends AppCompatActivity {
                 } else {
                     analysisResp(successStr);
                 }
+                storeHousePtrFrame.refreshComplete();
             }
 
             @Override
@@ -246,7 +247,6 @@ public class OrderActivity extends AppCompatActivity {
             }
         }
         num.setText("最近6个月共查询到"+mLogs.size()+"个订单");
-        storeHousePtrFrame.refreshComplete();
         if (mLogs.size() < 1) {
             Toast.makeText(OrderActivity.this, "该色号最近6个月无进厂记录", Toast.LENGTH_SHORT).show();
         } else {
