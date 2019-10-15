@@ -13,10 +13,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.demo.scan.R;
+import com.demo.scan.Server;
 import com.demo.scan.utils.AppUtils;
+import com.demo.scan.utils.versionUpdate.AppVersionUitls;
 
 public class FirstActivity extends AppCompatActivity implements View.OnClickListener {
-    private TextView tv1,tv2,tv3;
+    private TextView tv1, tv2, tv3;
     Toolbar mToolbar;
 
     @Override
@@ -30,7 +32,12 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
         tv1.setOnClickListener(this);
         tv2.setOnClickListener(this);
         tv3.setOnClickListener(this);
+
+        AppVersionUitls.checkVersion(FirstActivity.this
+                , Server.appVersionByServer, Server.appName, null
+                , FirstActivity.class, true);
     }
+
     /**
      * 初始化 toolbar
      */
@@ -43,17 +50,17 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         Intent intent;
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.tv_1:
 //                1D/2D扫描
-                intent = new Intent(this,MainActivity.class);
+                intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
                 break;
             case R.id.tv_2:
 //                RFID扫描
-                if (!AppUtils.checkAppInstalled(FirstActivity.this,"com.example.uhfsdkdemo")){
-                    Toast.makeText(FirstActivity.this,"请安装方大丝绸RFID APP后在点击",Toast.LENGTH_SHORT).show();
-                }else {
+                if (!AppUtils.checkAppInstalled(FirstActivity.this, "com.example.uhfsdkdemo")) {
+                    Toast.makeText(FirstActivity.this, "请安装方大丝绸RFID APP后在点击", Toast.LENGTH_SHORT).show();
+                } else {
                     intent = new Intent(Intent.ACTION_MAIN);
                     intent.addCategory(Intent.CATEGORY_LAUNCHER);
                     ComponentName cn = new ComponentName("com.example.uhfsdkdemo", "com.example.uhfsdkdemo.activity.RFIDActivity");
@@ -64,7 +71,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
                 break;
             case R.id.tv_3:
 //                手机扫描
-                intent = new Intent(this,PhoneActivity.class);
+                intent = new Intent(this, PhoneActivity.class);
                 startActivity(intent);
                 break;
         }

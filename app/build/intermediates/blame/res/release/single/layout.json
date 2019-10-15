@@ -216,6 +216,10 @@
         "source": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\src\\main\\res\\layout\\activity_order.xml"
     },
     {
+        "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\release\\layout\\layout_notification_item.xml",
+        "source": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\src\\main\\res\\layout\\layout_notification_item.xml"
+    },
+    {
         "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\25fe2d17696d450fc8e04c3ddb6f47260759c944\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },

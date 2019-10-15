@@ -19,11 +19,11 @@ import java.lang.Override;
 public class SettlementActivity_ViewBinding<T extends SettlementActivity> implements Unbinder {
   protected T target;
 
-  private View view2131689671;
+  private View view2131755207;
 
-  private View view2131689670;
+  private View view2131755206;
 
-  private View view2131689668;
+  private View view2131755204;
 
   @UiThread
   public SettlementActivity_ViewBinding(final T target, View source) {
@@ -36,7 +36,7 @@ public class SettlementActivity_ViewBinding<T extends SettlementActivity> implem
     target.tvEndTime = Utils.findRequiredViewAsType(source, R.id.tv_endTime, "field 'tvEndTime'", TextView.class);
     view = Utils.findRequiredView(source, R.id.tv_Search, "field 'tvSearch' and method 'onViewClicked'");
     target.tvSearch = Utils.castView(view, R.id.tv_Search, "field 'tvSearch'", TextView.class);
-    view2131689671 = view;
+    view2131755207 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -46,7 +46,7 @@ public class SettlementActivity_ViewBinding<T extends SettlementActivity> implem
     target.recyclerview = Utils.findRequiredViewAsType(source, R.id.recyclerview, "field 'recyclerview'", RecyclerView.class);
     target.storeHousePtrFrame = Utils.findRequiredViewAsType(source, R.id.store_house_ptr_frame, "field 'storeHousePtrFrame'", PtrClassicFrameLayout.class);
     view = Utils.findRequiredView(source, R.id.ll_time, "method 'onViewClicked'");
-    view2131689670 = view;
+    view2131755206 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +54,7 @@ public class SettlementActivity_ViewBinding<T extends SettlementActivity> implem
       }
     });
     view = Utils.findRequiredView(source, R.id.im_back, "method 'onViewClicked'");
-    view2131689668 = view;
+    view2131755204 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -77,12 +77,12 @@ public class SettlementActivity_ViewBinding<T extends SettlementActivity> implem
     target.recyclerview = null;
     target.storeHousePtrFrame = null;
 
-    view2131689671.setOnClickListener(null);
-    view2131689671 = null;
-    view2131689670.setOnClickListener(null);
-    view2131689670 = null;
-    view2131689668.setOnClickListener(null);
-    view2131689668 = null;
+    view2131755207.setOnClickListener(null);
+    view2131755207 = null;
+    view2131755206.setOnClickListener(null);
+    view2131755206 = null;
+    view2131755204.setOnClickListener(null);
+    view2131755204 = null;
 
     this.target = null;
   }

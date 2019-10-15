@@ -533,9 +533,36 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
                 break;
             case "9":
                 //结算查询
-                startActivity(new Intent(MainActivity.this, SettlementActivity.class));
+                showInputDialog();
+//                startActivity(new Intent(MainActivity.this, SettlementActivity.class));
                 break;
         }
+    }
+    /**
+     * 结算查询 权限校验
+     * @Author lish
+     * @Date 2019-10-15 9:23
+     */
+    private void showInputDialog() {
+    /*@setView 装入一个EditView
+     */
+        final EditText editText = new EditText(MainActivity.this);
+        AlertDialog.Builder inputDialog =
+                new AlertDialog.Builder(MainActivity.this);
+        inputDialog.setTitle("请输入密码").setView(editText);
+        inputDialog.setPositiveButton("确定",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        if (editText.getText().toString().trim().equals("wf1031!")
+                                ||editText.getText().toString().trim().equals("wf1031！")) {
+                            startActivity(new Intent(MainActivity.this, SettlementActivity.class));
+                        } else
+                            Toast.makeText(MainActivity.this,
+                                   "密码错误,无法查询",
+                                    Toast.LENGTH_SHORT).show();
+                    }
+                }).show();
     }
 
     /**

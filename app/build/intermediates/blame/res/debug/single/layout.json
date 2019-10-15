@@ -84,6 +84,10 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\2a6ca25eda6bc58d8d244b70fd2e6110493b0044\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_notification_item.xml",
+        "source": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\src\\main\\res\\layout\\layout_notification_item.xml"
+    },
+    {
         "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\2a6ca25eda6bc58d8d244b70fd2e6110493b0044\\output\\res\\layout\\abc_action_menu_layout.xml"
     },

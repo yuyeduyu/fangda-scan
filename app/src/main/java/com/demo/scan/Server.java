@@ -14,4 +14,9 @@ public class Server {
 
     public static final String serveradress = "/fdsc-1.0-SNAPSHOT";
 //    public static final String serveradress = "/fdsc";
+
+    public static String filePath = "/mnt/sdcard/方大丝绸/";
+
+    public static String appVersionByServer = "scanApp.txt";//服务器中获取app版本内容信息
+    public static String appName = "scanApp.apk";//服务器中获取app下载路径
 }

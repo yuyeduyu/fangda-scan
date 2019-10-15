@@ -48,6 +48,8 @@
             android:label="@string/title_activity_settlement"
             android:theme="@style/AppTheme" />
 
+        <service android:name="com.demo.scan.utils.versionUpdate.VersionUpdateService" />
+
         <meta-data
             android:name="android.support.VERSION"
             android:value="25.4.0" />

@@ -44,12 +44,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\2a6ca25eda6bc58d8d244b70fd2e6110493b0044\\output\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\ic_flash_off_white_24dp.png",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\be13d988339813823689a96b7997a3f256e2349d\\output\\res\\drawable-xxhdpi-v4\\ic_flash_off_white_24dp.png"
-    },
-    {
         "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\2a6ca25eda6bc58d8d244b70fd2e6110493b0044\\output\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\ic_flash_off_white_24dp.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\be13d988339813823689a96b7997a3f256e2349d\\output\\res\\drawable-xxhdpi-v4\\ic_flash_off_white_24dp.png"
     },
     {
         "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",

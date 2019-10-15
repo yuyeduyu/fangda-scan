@@ -16,6 +16,8 @@
         android:paddingLeft="5dp"
         android:paddingRight="10dp"
         android:paddingTop="5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:background="@color/c4"
         android:orientation="horizontal">
         <ImageView

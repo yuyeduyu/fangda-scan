@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\650ebdbe23cbfb6b1caa6da8b18c129999b8c51f\output\jars\classes.jar"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.1\b9d63507329a7178e026fc334f87587ee5070ac5\gson-2.6.1.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
-        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_00685ad46e6d9f6d7d133f6d64629e4cc8128fd3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.android\build-cache\25fe2d17696d450fc8e04c3ddb6f47260759c944\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
-        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_f2f817a2958cdc3f35fa9d358358f8dce3e60532.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\httpcore-4.1.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="592ffbd778cbcc2e2dc5d162b35c16d6a538fea2">
-        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\httpcore-4.1.4_a149ceefe05afa98ecf86d0060ff0a1472ff558e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
-        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\support-annotations-25.4.0_6efba71d3cc56c52514f10345b6030ccb220bca0.jar" />
+        sha1="b9d63507329a7178e026fc334f87587ee5070ac5">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\release\gson-2.6.1_7cd154ea7948a4454c775db22bc00deb7ba667b3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,12 +21,30 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\650ebdbe23cbfb6b1caa6da8b18c129999b8c51f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1e0cd070d7cf659ece90e919bff76e7ddc32532">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_00685ad46e6d9f6d7d133f6d64629e4cc8128fd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\android-async-http-1.4.6.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
         <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6_dcf0dc6c8a59c1c59e54c5a2858f8712ecc1df92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\25fe2d17696d450fc8e04c3ddb6f47260759c944\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cad1364721fc716a39bdc351d3637edb634c9aa5">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\classes_f2f817a2958cdc3f35fa9d358358f8dce3e60532.jar" />
     </item>
     <item
         is-multidex="false"
@@ -66,6 +57,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\httpcore-4.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="592ffbd778cbcc2e2dc5d162b35c16d6a538fea2">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\httpcore-4.1.4_a149ceefe05afa98ecf86d0060ff0a1472ff558e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Administrator\.android\build-cache\be13d988339813823689a96b7997a3f256e2349d\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -75,21 +75,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="D:\workspace\others\huang\fangda\ScanDemmo\app\libs\gson-2.2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
-        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\gson-2.2.4_93fe1a3037bba22848d6400fbfca0965d0960ee4.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
         <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_a2a255623276bf6fd1b525dcb3e3c692cac62c3e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\25.4.0\f6a2fc748ae3769633dea050563e1613e93c135e\support-annotations-25.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6a2fc748ae3769633dea050563e1613e93c135e">
+        <dex dex="D:\workspace\others\huang\fangda\ScanDemmo\app\build\intermediates\pre-dexed\debug\support-annotations-25.4.0_6efba71d3cc56c52514f10345b6030ccb220bca0.jar" />
     </item>
 
 </items>

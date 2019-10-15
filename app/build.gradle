@@ -11,10 +11,20 @@ android {
         versionCode 9
         versionName "2.0.10"
     }
+//签名配置
+    signingConfigs {
+        releaseConfig {                        //发布版本签名配置
+            keyAlias 'key0'
+            keyPassword '123456'
+            storeFile file('D:/androidStoreKey/fangda.jks')
+            storePassword '123456'
+        }
+    }
 
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.releaseConfig
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
@@ -29,7 +39,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25+'
     compile 'com.android.support:design:25+'
     compile files('libs/android-async-http-1.4.6.jar')
-    compile files('libs/gson-2.2.4.jar')
     compile files('libs/httpcore-4.1.4.jar')
     /*EventBus*/
     compile 'org.greenrobot:eventbus:3.0.0'
@@ -42,4 +51,14 @@ dependencies {
     apt 'com.jakewharton:butterknife-compiler:8.4.0'
     /*zixing 条码扫描库*/
     compile 'com.github.XuDaojie:QRCode-Android:v0.4.2'
+
+    /*封装okhttp的网络请求*/
+    compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+    compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    /*rxandroid*/
+    compile 'io.reactivex:rxandroid:+'
+    compile 'com.trello:rxlifecycle:+'
+    compile 'com.trello:rxlifecycle-components:+'
 }

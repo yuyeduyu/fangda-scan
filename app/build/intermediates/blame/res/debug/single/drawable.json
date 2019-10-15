@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\2a6ca25eda6bc58d8d244b70fd2e6110493b0044\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2a6ca25eda6bc58d8d244b70fd2e6110493b0044\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
         "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\2a6ca25eda6bc58d8d244b70fd2e6110493b0044\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\2a6ca25eda6bc58d8d244b70fd2e6110493b0044\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "D:\\workspace\\others\\huang\\fangda\\ScanDemmo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",

@@ -18,47 +18,47 @@ public final class R {
         public static final int qr_textHintColor = 0x7f010189;
     }
     public static final class color {
-        public static final int bg_color = 0x7f0e000c;
-        public static final int colorAccent = 0x7f0e0019;
-        public static final int colorPrimary = 0x7f0e001a;
-        public static final int colorPrimaryDark = 0x7f0e001b;
-        public static final int colorblack = 0x7f0e001c;
-        public static final int contents_text = 0x7f0e001d;
-        public static final int encode_view = 0x7f0e002d;
-        public static final int header = 0x7f0e0032;
-        public static final int help_button_view = 0x7f0e0033;
-        public static final int help_view = 0x7f0e0034;
-        public static final int player_black = 0x7f0e0049;
-        public static final int player_blue = 0x7f0e004a;
-        public static final int player_blue2 = 0x7f0e004b;
-        public static final int player_green = 0x7f0e004c;
-        public static final int player_grey = 0x7f0e004d;
-        public static final int player_panel = 0x7f0e004e;
-        public static final int player_purple = 0x7f0e004f;
-        public static final int player_red = 0x7f0e0050;
-        public static final int player_white = 0x7f0e0051;
-        public static final int player_yellow = 0x7f0e0052;
-        public static final int possible_result_points = 0x7f0e0053;
-        public static final int qr_blue = 0x7f0e005e;
-        public static final int result_image_border = 0x7f0e005f;
-        public static final int result_minor_text = 0x7f0e0060;
-        public static final int result_points = 0x7f0e0061;
-        public static final int result_text = 0x7f0e0062;
-        public static final int result_view = 0x7f0e0063;
-        public static final int sbc_header_text = 0x7f0e0066;
-        public static final int sbc_header_view = 0x7f0e0067;
-        public static final int sbc_layout_view = 0x7f0e0068;
-        public static final int sbc_list_item = 0x7f0e0069;
-        public static final int sbc_page_number_text = 0x7f0e006a;
-        public static final int sbc_snippet_text = 0x7f0e006b;
-        public static final int share_text = 0x7f0e0071;
-        public static final int share_view = 0x7f0e0072;
-        public static final int status_text = 0x7f0e0073;
-        public static final int status_view = 0x7f0e0074;
-        public static final int transparent = 0x7f0e007e;
-        public static final int viewfinder_frame = 0x7f0e0082;
-        public static final int viewfinder_laser = 0x7f0e0083;
-        public static final int viewfinder_mask = 0x7f0e0084;
+        public static final int bg_color = 0x7f0f000c;
+        public static final int colorAccent = 0x7f0f0019;
+        public static final int colorPrimary = 0x7f0f001a;
+        public static final int colorPrimaryDark = 0x7f0f001b;
+        public static final int colorblack = 0x7f0f001c;
+        public static final int contents_text = 0x7f0f001d;
+        public static final int encode_view = 0x7f0f002d;
+        public static final int header = 0x7f0f0032;
+        public static final int help_button_view = 0x7f0f0033;
+        public static final int help_view = 0x7f0f0034;
+        public static final int player_black = 0x7f0f0049;
+        public static final int player_blue = 0x7f0f004a;
+        public static final int player_blue2 = 0x7f0f004b;
+        public static final int player_green = 0x7f0f004c;
+        public static final int player_grey = 0x7f0f004d;
+        public static final int player_panel = 0x7f0f004e;
+        public static final int player_purple = 0x7f0f004f;
+        public static final int player_red = 0x7f0f0050;
+        public static final int player_white = 0x7f0f0051;
+        public static final int player_yellow = 0x7f0f0052;
+        public static final int possible_result_points = 0x7f0f0053;
+        public static final int qr_blue = 0x7f0f005e;
+        public static final int result_image_border = 0x7f0f005f;
+        public static final int result_minor_text = 0x7f0f0060;
+        public static final int result_points = 0x7f0f0061;
+        public static final int result_text = 0x7f0f0062;
+        public static final int result_view = 0x7f0f0063;
+        public static final int sbc_header_text = 0x7f0f0066;
+        public static final int sbc_header_view = 0x7f0f0067;
+        public static final int sbc_layout_view = 0x7f0f0068;
+        public static final int sbc_list_item = 0x7f0f0069;
+        public static final int sbc_page_number_text = 0x7f0f006a;
+        public static final int sbc_snippet_text = 0x7f0f006b;
+        public static final int share_text = 0x7f0f0071;
+        public static final int share_view = 0x7f0f0072;
+        public static final int status_text = 0x7f0f0073;
+        public static final int status_view = 0x7f0f0074;
+        public static final int transparent = 0x7f0f007e;
+        public static final int viewfinder_frame = 0x7f0f0082;
+        public static final int viewfinder_laser = 0x7f0f0083;
+        public static final int viewfinder_mask = 0x7f0f0084;
     }
     public static final class drawable {
         public static final int ic_back = 0x7f02005c;
@@ -66,33 +66,33 @@ public final class R {
         public static final int ic_flash_on_white_24dp = 0x7f02005e;
     }
     public static final class id {
-        public static final int auto_focus = 0x7f0f0004;
-        public static final int back_ibtn = 0x7f0f0133;
-        public static final int decode = 0x7f0f0005;
-        public static final int decode_failed = 0x7f0f0006;
-        public static final int decode_succeeded = 0x7f0f0007;
-        public static final int encode_failed = 0x7f0f0008;
-        public static final int encode_succeeded = 0x7f0f0009;
-        public static final int flash_ibtn = 0x7f0f0134;
-        public static final int gallery_tv = 0x7f0f0135;
-        public static final int launch_product_query = 0x7f0f000c;
-        public static final int preview_view = 0x7f0f0131;
-        public static final int quit = 0x7f0f000f;
-        public static final int restart_preview = 0x7f0f0010;
-        public static final int return_scan_result = 0x7f0f0011;
-        public static final int search_book_contents_failed = 0x7f0f0012;
-        public static final int search_book_contents_succeeded = 0x7f0f0013;
-        public static final int viewfinder_view = 0x7f0f0132;
+        public static final int auto_focus = 0x7f100004;
+        public static final int back_ibtn = 0x7f100136;
+        public static final int decode = 0x7f100005;
+        public static final int decode_failed = 0x7f100006;
+        public static final int decode_succeeded = 0x7f100007;
+        public static final int encode_failed = 0x7f100008;
+        public static final int encode_succeeded = 0x7f100009;
+        public static final int flash_ibtn = 0x7f100137;
+        public static final int gallery_tv = 0x7f100138;
+        public static final int launch_product_query = 0x7f10000c;
+        public static final int preview_view = 0x7f100134;
+        public static final int quit = 0x7f10000f;
+        public static final int restart_preview = 0x7f100010;
+        public static final int return_scan_result = 0x7f100011;
+        public static final int search_book_contents_failed = 0x7f100012;
+        public static final int search_book_contents_succeeded = 0x7f100013;
+        public static final int viewfinder_view = 0x7f100135;
     }
     public static final class layout {
-        public static final int qr_camera = 0x7f040050;
+        public static final int qr_camera = 0x7f040051;
     }
     public static final class raw {
-        public static final int beep = 0x7f070000;
+        public static final int beep = 0x7f080000;
     }
     public static final class string {
-        public static final int app_name = 0x7f080016;
-        public static final int scan_failed = 0x7f08002e;
+        public static final int app_name = 0x7f090016;
+        public static final int scan_failed = 0x7f09002e;
     }
     public static final class styleable {
         public static final int[] qr_ViewfinderView = { 0x7f010187, 0x7f010188, 0x7f010189, 0x7f01018a, 0x7f01018b, 0x7f01018c, 0x7f01018d, 0x7f01018e };
