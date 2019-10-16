@@ -8,8 +8,8 @@ android {
         applicationId "com.demo.scan"
         minSdkVersion 17
         targetSdkVersion 21
-        versionCode 9
-        versionName "2.0.10"
+        versionCode 10
+        versionName "2.0.11"
     }
 //签名配置
     signingConfigs {

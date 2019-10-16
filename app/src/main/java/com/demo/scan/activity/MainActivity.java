@@ -875,7 +875,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
         RequestParams params = new RequestParams();
         params.put("codes", new Gson().toJson(datalist));
-
+        params.put("equInfor", equnitorName);
         mAsyncHttpclient.post(url, params, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseByte) {
@@ -952,7 +952,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
         RequestParams params = new RequestParams();
         params.put("codes", new Gson().toJson(datalist));
-
+        params.put("equInfor", equnitorName);
         mAsyncHttpclient.post(url, params, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseByte) {
